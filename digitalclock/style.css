@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+}
+
+.container{
+  color:#fff;
+  background-color: #10101e;
+  font-family: 'Courier New', Courier, monospace;
+  width: 400px;
+  padding: 15px  10px;
+  border: 3px solid;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+ line-height: 3em;
+ border-color: linear-gradient(to right, #d1e196, #7f62e7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f4e286, 0 0 40px #F4E286, 0 0 80px #dfe18f;
+}
+
+
+.time :nth-child(-n+5){
+    font-size: 2.2em;
+    padding: 2px;
+}
+
